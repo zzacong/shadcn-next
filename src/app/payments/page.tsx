@@ -1,5 +1,5 @@
+import { DataTable } from '~/components/ui/data-table'
 import { type Payment, columns } from './columns'
-import { DataTable } from './data-table'
 
 export const metadata = {
   title: 'Payments',

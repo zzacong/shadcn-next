@@ -14,6 +14,9 @@
     "fmt:check": "prettier --check \"**/*.{ts,tsx,mdx,js,cjs,mjs,json}\" --cache"
   },
   "dependencies": {
+    "@radix-ui/react-checkbox": "^1.0.4",
+    "@radix-ui/react-dropdown-menu": "^2.0.5",
+    "@radix-ui/react-select": "^1.2.2",
     "@radix-ui/react-slot": "^1.0.2",
     "@t3-oss/env-nextjs": "^0.3.1",
     "@tanstack/react-table": "^8.9.1",
