@@ -1,7 +1,10 @@
 /** @type {import("prettier").Config} */
 const config = {
-  singleQuote: true,
-  semi: true,
+  endOfLine: 'lf',
+  semi: false,
+  singleQuote: false,
+  tabWidth: 2,
+  trailingComma: 'es5',
   plugins: [require.resolve('prettier-plugin-tailwindcss')],
 };
 
