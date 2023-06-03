@@ -1,6 +1,6 @@
-import Link from "next/link"
-import { buttonVariants } from "~/components/ui/button"
-import { siteConfig } from "~/config/site"
+import Link from 'next/link'
+import { buttonVariants } from '~/components/ui/button'
+import { siteConfig } from '~/config/site'
 
 export default function HomePage() {
   return (
@@ -28,7 +28,7 @@ export default function HomePage() {
           target="_blank"
           rel="noreferrer"
           href={siteConfig.links.github}
-          className={buttonVariants({ variant: "outline" })}
+          className={buttonVariants({ variant: 'outline' })}
         >
           GitHub
         </Link>

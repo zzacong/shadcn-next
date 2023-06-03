@@ -10,12 +10,13 @@
     "lint:fix": "next lint --fix",
     "preview": "next build && next start",
     "typecheck": "tsc --noEmit",
-    "fmt:write": "prettier --write \"**/*.{ts,tsx,mdx}\" --cache",
-    "fmt:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache"
+    "fmt:write": "prettier --write \"**/*.{ts,tsx,mdx,js,cjs,mjs,json}\" --cache",
+    "fmt:check": "prettier --check \"**/*.{ts,tsx,mdx,js,cjs,mjs,json}\" --cache"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
     "@t3-oss/env-nextjs": "^0.3.1",
+    "@tanstack/react-table": "^8.9.1",
     "class-variance-authority": "^0.6.0",
     "clsx": "^1.2.1",
     "lucide-react": "^0.233.0",
@@ -43,6 +44,6 @@
     "shadcn-ui": "^0.1.3",
     "tailwindcss": "3.3.2",
     "tailwindcss-animate": "^1.0.5",
-    "typescript": "5.1.3"
+    "typescript": "5.0.4"
   }
 }

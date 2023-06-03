@@ -1,10 +1,10 @@
-import "~/styles/globals.css"
-import { cn } from "~/lib/utils"
-import { fontSans } from "~/lib/fonts"
-import { ThemeProvider } from "~/components/theme-provider"
-import { SiteHeader } from "~/components/site-header"
-import { TailwindIndicator } from "~/components/tailwind-indicator"
-import { siteConfig } from "~/config/site"
+import '~/styles/globals.css'
+import { cn } from '~/lib/utils'
+import { fontSans } from '~/lib/fonts'
+import { ThemeProvider } from '~/components/theme-provider'
+import { SiteHeader } from '~/components/site-header'
+import { TailwindIndicator } from '~/components/tailwind-indicator'
+import { siteConfig } from '~/config/site'
 
 export const metadata = {
   title: {
@@ -13,13 +13,13 @@ export const metadata = {
   },
   description: siteConfig.description,
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "white" },
-    { media: "(prefers-color-scheme: dark)", color: "black" },
+    { media: '(prefers-color-scheme: light)', color: 'white' },
+    { media: '(prefers-color-scheme: dark)', color: 'black' },
   ],
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    icon: '/favicon.ico',
+    shortcut: '/favicon-16x16.png',
+    apple: '/apple-touch-icon.png',
   },
 }
 
@@ -31,7 +31,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <head />
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
+          'min-h-screen bg-background font-sans antialiased',
           fontSans.variable
         )}
       >

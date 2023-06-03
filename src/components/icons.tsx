@@ -4,7 +4,7 @@ import {
   Moon,
   SunMedium,
   Twitter,
-} from "lucide-react"
+} from 'lucide-react'
 
 export type Icon = LucideIcon
 
