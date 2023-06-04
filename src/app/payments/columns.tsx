@@ -6,7 +6,7 @@ import { MoreHorizontal } from 'lucide-react'
 import { Badge } from '~/components/ui/badge'
 import { Button } from '~/components/ui/button'
 import { Checkbox } from '~/components/ui/checkbox'
-import { DataTableColumnHeader } from '~/components/ui/data-table'
+import { DataTableColumnHeader } from '~/components/data-table'
 import {
   DropdownMenu,
   DropdownMenuContent,

@@ -5,6 +5,7 @@ import { ThemeProvider } from '~/components/theme-provider'
 import { SiteHeader } from '~/components/site-header'
 import { TailwindIndicator } from '~/components/tailwind-indicator'
 import { siteConfig } from '~/config/site'
+import { Toaster } from '~/components/ui/toaster'
 
 export const metadata = {
   title: {
@@ -27,7 +28,7 @@ type RootLayoutProps = React.PropsWithChildren<unknown>
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en" className="">
+    <html lang="en" suppressHydrationWarning>
       <head />
       <body
         className={cn(
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <div className="flex-1">{children}</div>
           </div>
           <TailwindIndicator />
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

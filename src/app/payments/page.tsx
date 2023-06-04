@@ -1,4 +1,4 @@
-import { DataTable } from '~/components/ui/data-table'
+import { DataTable } from '~/components/data-table'
 import { type Payment, columns } from './columns'
 
 export const metadata = {
@@ -39,9 +39,9 @@ export default async function TablePage() {
   const data = await getData()
 
   return (
-    <div className="container mx-auto py-10">
+    <main className="container py-10">
       {/* @ts-expect-error */}
       <DataTable columns={columns} data={data} />
-    </div>
+    </main>
   )
 }

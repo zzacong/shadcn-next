@@ -13,8 +13,12 @@ export const siteConfig = {
       title: 'Data table',
       href: '/payments',
     },
+    {
+      title: 'Forms',
+      href: '/forms',
+    },
   ],
   links: {
-    github: 'https://github.com/zzacong',
+    github: 'https://github.com/zzacong/shadcn-next',
   },
 }
