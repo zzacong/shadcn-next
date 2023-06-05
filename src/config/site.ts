@@ -10,12 +10,16 @@ export const siteConfig = {
       href: '/',
     },
     {
-      title: 'Data table',
+      title: 'Payments',
       href: '/payments',
     },
     {
       title: 'Forms',
       href: '/forms',
+    },
+    {
+      title: 'Dashboard',
+      href: '/dashboard',
     },
   ],
   links: {
